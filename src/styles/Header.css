@@ -1,0 +1,61 @@
+.header-component {
+    min-height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-family: var(--raleway);
+    font-size: 1em;
+    color: black;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.header-component nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-component a {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+
+.header-component a:hover {
+    background-color: rgb(204, 204, 204);
+}
+
+.header-component a svg {
+    aspect-ratio: 1/1;
+    height: 1em;
+}
+
+.header-component a:link, .header-component a:visited, .header-component a:active {
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (min-width: 425px) {
+    
+    .header-component {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .header-component nav {
+        min-height: 60px;
+        flex-direction: row;
+    }
+
+    .header-component a {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+
+  }
