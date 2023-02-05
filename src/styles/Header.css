@@ -1,6 +1,7 @@
 .header-component {
+    background-color: white;
     min-height: 60px;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
