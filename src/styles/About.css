@@ -1,0 +1,76 @@
+.about-component {
+    min-height: 100vh;
+    width: 100%;
+    padding: 90px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.about-component h2 {
+    font-family: var(--raleway);
+    font-size: 2em;
+    text-align: center;
+}
+
+.about-component .about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.about-component .personal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-component .personal .picture {
+    aspect-ratio: 1/1;
+    height: 164px;
+    background-image: url('../assets/profile.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.about-component .personal p {
+    font-family: var(--raleway);
+    text-align: center;
+}
+
+.about-component h3 {
+    font-family: var(--raleway);
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.about-component .tech {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+@media only screen and (min-width: 600px){
+
+    .about-component .stack {
+        flex: 1;
+    }
+
+    .about-component .personal {
+        flex: 1;
+    }
+
+    .about-component .about-container {
+        flex-direction: row;
+        align-items: center;
+        gap: 80px;
+    }
+
+}
