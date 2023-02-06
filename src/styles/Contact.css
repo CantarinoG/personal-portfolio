@@ -24,6 +24,9 @@
 
 .contact-component ul {
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .contact-component ul li:hover {
@@ -36,6 +39,7 @@
 }
 
 .contact-component ul li a {
+    overflow-wrap: anywhere;
     display: flex;
     align-items: center;
     gap: 20px;
