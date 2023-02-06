@@ -1,0 +1,36 @@
+.footer-component {
+    background-color: black;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #F1F1F1;
+    font-family: var(--raleway);
+    font-size: 0.8em;
+    align-items: center;
+}
+
+.footer-component span {
+    display: block;
+    text-align: center;
+}
+
+.footer-component ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-component ul li {
+    text-align: center;
+}
+
+.footer-component a:link, .footer-component a:visited, .footer-component a:active {
+    color: white;
+}
+
+.footer-component a:hover {
+    color: rgb(204, 204, 204);
+}

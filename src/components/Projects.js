@@ -4,7 +4,7 @@ import IndividualProject from "./IndividualProject";
 
 function Projects() {
 
-    return <div className="projects-component">
+    return <section className="projects-component">
         <h2>PROJECTS</h2>
         <div className="individual-projects">
             <IndividualProject
@@ -43,7 +43,7 @@ function Projects() {
             image="./img/etchASketch.png"
             />
         </div>
-    </div>
+    </section>
 
 }
 
