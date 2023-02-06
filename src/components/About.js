@@ -2,17 +2,17 @@ import "../styles/About.css";
 
 import Card from "./Card";
 
-function About() {
+function About({text}) {
 
     return <section className="about-component" id="about-component">
-        <h2>ABOUT</h2>
+        <h2>{text.aboutH2}</h2>
         <div className="about-container">
             <div className="personal">
                 <div className="picture"></div>
-                <p>Sou uma pessoa apaixonada por tecnologia e ainda mais apaixonada por aprender. Em meados de 2022 comecei a me especializar em desenvolvimento front-end. Possuo uma base forte e estou sempre tentando aprender novas tecnologias, me aperfeiçoar nas tecnologias que já uso e melhorar a forma como eu organizo e escrevo meu código no geral. Além disso, sou uma pessoa extremamente dedicada, responsável e organizada, e tenho prazer em dar o meu melhor em tudo que faço. Estou buscando minha primeira experiência profissional, como uma forma de desenvolver ainda mais minhas habilidades e contribuir no desenvolvimento de produtos que sejam úteis para as pessoas.</p>
+                <p>{text.aboutDescription}</p>
             </div>
             <div className="stack">
-                <h3>Stack Tecnológico & Ferramentas</h3>
+                <h3>{text.aboutStackTitle}</h3>
                 <div className="tech">
                     <Card 
                     svg={<svg viewBox="0 0 128 128"><path fill="#E44D26" d="M9.032 2l10.005 112.093 44.896 12.401 45.02-12.387L118.968 2H9.032zm89.126 26.539l-.627 7.172L97.255 39H44.59l1.257 14h50.156l-.336 3.471-3.233 36.119-.238 2.27L64 102.609v.002l-.034.018-28.177-7.423L33.876 74h13.815l.979 10.919L63.957 89H64v-.546l15.355-3.875L80.959 67H33.261l-3.383-38.117L29.549 25h68.939l-.33 3.539z"></path></svg>} 
