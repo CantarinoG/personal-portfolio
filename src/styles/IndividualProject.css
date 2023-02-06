@@ -75,3 +75,24 @@
     }
 
 }
+
+@media (prefers-reduced-motion: no-preference) {
+    
+    .picture-animation {
+        animation: showPic 1s 1;
+    }
+
+}
+
+@keyframes showPic {
+    0% {
+        position: relative;
+        top: 100px;
+		opacity: 1;
+	}
+    100% {
+        position: relative;
+        top: 0px;
+        opacity: 1;
+    }
+}
