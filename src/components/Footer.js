@@ -7,9 +7,9 @@ function Footer() {
         <div className="credits">
             <span>CRÉDITOS</span>
             <ul>
-                <li>Fotografia da tela inicial por <a href="#">Christina Morillo</a> </li>
-                <li>Icones por <a href="#">Material Design Icons</a></li>
-                <li>Logos por <a href="#">Devicon</a></li>
+                <li>Fotografia da tela inicial por <a target="_blank" rel="noreferrer" href="https://www.pexels.com/pt-br/foto/foto-de-close-up-de-pessoa-digitando-no-laptop-1181675/">Christina Morillo</a> </li>
+                <li>Icones por <a target="_blank" rel="noreferrer" href="https://pictogrammers.com/library/mdi/">Material Design Icons</a></li>
+                <li>Logos por <a target="_blank" rel="noreferrer" href="https://devicon.dev">Devicon</a></li>
             </ul>
         </div>
     </footer>
