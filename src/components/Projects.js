@@ -7,6 +7,30 @@ function Projects({text}) {
     return <section className="projects-component" id="projects-component">
         <h2>{text.projectsH2}</h2>
         <div className="individual-projects">
+        <IndividualProject
+            text={text}
+            name="Byte Blog"
+            description={text.projectsBlog}
+            image="./img/byteBlog.png"
+            demoLink="https://cantarinog.github.io/top-blog-front-end/"
+            codeLink="https://github.com/CantarinoG/top-blog-api"
+            />
+        <IndividualProject
+            text={text}
+            name="Secrecy"
+            description={text.projectsSecrecy}
+            image="./img/secrecy.png"
+            demoLink="https://top-members-only.cantarinog.repl.co"
+            codeLink="https://github.com/CantarinoG/top-members-only"
+            />
+        <IndividualProject
+            text={text}
+            name="FlowShop"
+            description={text.projectsFlowShop}
+            image="./img/flowShop.png"
+            demoLink="https://top-inventory.cantarinog.repl.co"
+            codeLink="https://github.com/CantarinoG/top-inventory"
+            />
             <IndividualProject
             text={text}
             name="GCFlix"
