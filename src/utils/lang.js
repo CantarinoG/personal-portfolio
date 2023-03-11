@@ -4,10 +4,17 @@ export const ptText = {
     headerProjects: "PROJETOS",
     headerContact: "CONTATO",
     homeMe: "Oi. Eu sou Guilherme Cantarino.",
-    homeTitle: "Desenvolvedor Front-End.",
+    homeTitle: "Desenvolvedor Full Stack.",
     homeKnowMe: "Me conheça",
     aboutH2: "SOBRE",
-    aboutDescription: "Sou uma pessoa apaixonada por tecnologia e ainda mais apaixonada por aprender. Em meados de 2022 comecei a me especializar em desenvolvimento front-end. Possuo uma base forte e estou sempre tentando aprender novas tecnologias, me aperfeiçoar nas tecnologias que já uso e melhorar a forma como eu organizo e escrevo meu código no geral. Além disso, sou uma pessoa extremamente dedicada, responsável e organizada, e tenho prazer em dar o meu melhor em tudo que faço. Estou buscando minha primeira experiência profissional, como uma forma de desenvolver ainda mais minhas habilidades e contribuir no desenvolvimento de produtos que sejam úteis para as pessoas.",
+    aboutDescription: `\tNasci em 2001. Acompanhei a evolução da internet, desde a internet discada até a atualidade em que vivemos conectados 24 horas. Passei a maior parte da minha infância e adolescência jogando jogos Flash, encarando o feed de minhas redes sociais, explorando a web ou jogando no meu saudoso PlayStation 2. Era apenas natural que eu desenvolvesse uma grande paixão por computadores e tecnologia.
+	
+    No ensino médio, por algum motivo que nem eu sei, desenvolvi uma aptidão absurda para a matemática e as ciências exatas, que passaram a ser minhas disciplinas favoritas. No fim do ensino médio, quando precisei escolher oque queria fazer da minha vida, a escolha era clara: queria trabalhar com computadores.
+	
+    Comecei a cursar Ciência da Computação em 2021 e me apaixonei por programação no meu primeiro “Hello World”. Senti prazer em fazer disciplinas como Algoritmos e Estruturas de Dados e obtive resultados muito bons na faculdade, que me deram a certeza de que estava no caminho certo. Nesse tempo, meu conhecimento em inglês se mostrou uma ferramenta indispensável.
+	
+    Em meados de 2022, querendo aprender mais e evoluir, comecei a estudar desenvolvimento web por conta própria. Aprendi muita coisa em pouco tempo, mas, claro, ainda tenho muito a aprender e continuarei aprendendo durante toda minha vida. Creio que hoje possuo conhecimento suficiente para começar a minha carreira e busco minha primeira oportunidade no mercado de trabalho, para desenvolver minhas habilidades e conhecer desenvolvedores mais experientes que possam me auxiliar nessa jornada.
+`,
     aboutStackTitle: "Stack Tecnológico & Ferramentas",
     projectsH2: "PROJETOS",
     projectsDesc1: "Feito com React.js e utilizando Firebase para o Back-End. Protótipo de uma plataforma de streaming altamente inspirada pela Netflix.",
@@ -34,10 +41,17 @@ export const enText = {
     headerProjects: "PROJECTS",
     headerContact: "CONTACT",
     homeMe: "Hi. I'm Guilherme Cantarino.",
-    homeTitle: "Front-End Developer.",
+    homeTitle: "Full Stack Developer.",
     homeKnowMe: "Get to know me",
     aboutH2: "ABOUT",
-    aboutDescription: "I am passionate about technology and even more passionate about learning. Since mid-2022 I've been studying front-end development. I have a strong grasp of the main concepts and I'm always trying to learn new technologies, improve on the technologies I already use and improve the way I organize and write my code in general. In addition, I am an extremely dedicated, responsible and organized person, and I take pleasure in giving my best in everything I do. I'm looking for my first professional experience, as a way to further develop my skills and contribute to the development of products that are useful for people.",
+    aboutDescription: `\tI was born in 2001. I watched the evolution of the internet, from dial-up internet to the present day in which we live connected 24 hours a day. I spent most of my childhood and teenage years playing Flash games, staring at my social media feed, exploring the web or playing games on my PlayStation 2. It was only natural that I developed a huge passion for computers and technology.
+
+    In high school, for some reason that even I don't know, I developed a huge aptitude for math and exact sciences, which became my favorite subjects. At the end of high school, when I had to choose what I would like to work with, the choice was clear: I wanted to work with computers.
+
+    I started studying Computer Science in 2021 and fell in love with programming in my first “Hello World”. I took pleasure in taking courses like Algorithms and Data Structures and I got very good results in college, which gave me the certainty that I was on the right path. During that time, my knowledge of English proved to be an indispensable tool.
+
+    In mid-2022, wanting to learn more and evolve, I started studying web development on my own. I learned a lot in a short time, but, of course, I still have a lot to learn and will continue to learn all my life. I believe that today I have enough knowledge to start my career and I am looking for my first opportunity in the job market, to develop my skills and meet more experienced developers who can help me on this journey.
+`,
     aboutStackTitle: "Tech Stack & Tools",
     projectsH2: "PROJECTS",
     projectsDesc1: "Made with React.js and using Firebase for the Back-End. Prototype of a streaming platform highly inspired by Netflix.",

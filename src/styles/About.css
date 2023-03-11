@@ -40,7 +40,8 @@
 
 .about-component .personal p {
     font-family: var(--raleway);
-    text-align: center;
+    text-align: justify;
+    white-space: pre-wrap;
 }
 
 .about-component h3 {
