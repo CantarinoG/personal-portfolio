@@ -10,7 +10,7 @@ function Projects({text}) {
             <IndividualProject
             text={text}
             name="GCFlix"
-            description={text.projectsDesc1}
+            description={text.projectsGCFlix}
             image="./img/GCFlix.png"
             demoLink="https://cantarinog.github.io/top-streaming-app/"
             codeLink="https://github.com/CantarinoG/top-streaming-app"
@@ -18,7 +18,7 @@ function Projects({text}) {
             <IndividualProject
             text={text}
             name="Ready CV"
-            description={text.projectsDesc2}
+            description={text.projectsCV}
             image="./img/CVCreator.png"
             demoLink="https://cantarinog.github.io/top-cv-creator/"
             codeLink="https://github.com/CantarinoG/top-cv-creator"
@@ -26,7 +26,7 @@ function Projects({text}) {
             <IndividualProject
             text={text}
             name="Where Are The Heroes?"
-            description={text.projectsDesc3}
+            description={text.projectsHeroes}
             image="./img/whereAreTheHeroes.png"
             demoLink="https://cantarinog.github.io/top-photo-tagging/"
             codeLink="https://github.com/CantarinoG/top-photo-tagging"
@@ -34,7 +34,7 @@ function Projects({text}) {
             <IndividualProject
             text={text}
             name="Battleship"
-            description={text.projectsDesc4}
+            description={text.projectsBattleShip}
             image="./img/battleship.png"
             demoLink="https://cantarinog.github.io/top-battleship/"
             codeLink="https://github.com/CantarinoG/top-battleship"
@@ -42,7 +42,7 @@ function Projects({text}) {
             <IndividualProject
             text={text}
             name="Weather Forecast"
-            description={text.projectsDesc5}
+            description={text.projectsWeather}
             image="./img/weatherForecast.png"
             demoLink="https://cantarinog.github.io/top-weather-app/"
             codeLink="https://github.com/CantarinoG/top-weather-app"
@@ -50,7 +50,7 @@ function Projects({text}) {
             <IndividualProject
             text={text}
             name="Knight's Travails"
-            description={text.projectsDesc6}
+            description={text.projectsKnight}
             image="./img/knightsTravails.png"
             demoLink="https://cantarinog.github.io/top-knights-travails/"
             codeLink="https://github.com/CantarinoG/top-knights-travails"
@@ -58,7 +58,7 @@ function Projects({text}) {
             <IndividualProject
             text={text}
             name="Etch-A-Sketch"
-            description={text.projectsDesc7}
+            description={text.projectsArt}
             image="./img/etchASketch.png"
             demoLink="https://cantarinog.github.io/top-etch-a-sketch/"
             codeLink="https://github.com/CantarinoG/top-etch-a-sketch"
