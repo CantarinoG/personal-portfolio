@@ -9,84 +9,92 @@ function Projects({text}) {
         <div className="individual-projects">
         <IndividualProject
             text={text}
-            name="Byte Blog"
-            description={text.projectsBlog}
-            image="./img/byteBlog.png"
-            demoLink="https://cantarinog.github.io/top-blog-front-end/"
-            codeLink="https://github.com/CantarinoG/top-blog-api"
+            name="Handy Input"
+            description={text.projectsHandyInput}
+            image="./img/handyInput.png"
+            demoLink="https://www.youtube.com/watch?v=TBxxx_7NxX8"
+            codeLink="https://github.com/CantarinoG/handy-input"
             />
         <IndividualProject
             text={text}
-            name="Secrecy"
-            description={text.projectsSecrecy}
-            image="./img/secrecy.png"
-            demoLink="https://top-members-only.cantarinog.repl.co"
-            codeLink="https://github.com/CantarinoG/top-members-only"
-            />
-        <IndividualProject
-            text={text}
-            name="FlowShop"
+            name="Flow Shop"
             description={text.projectsFlowShop}
             image="./img/flowShop.png"
-            demoLink="https://top-inventory.cantarinog.repl.co"
-            codeLink="https://github.com/CantarinoG/top-inventory"
-            />
-            <IndividualProject
+            demoLink="https://inventory-17r1.onrender.com"
+            codeLink="https://github.com/CantarinoG/inventory"
+        />
+        <IndividualProject
             text={text}
-            name="GCFlix"
-            description={text.projectsGCFlix}
-            image="./img/GCFlix.png"
-            demoLink="https://cantarinog.github.io/top-streaming-app/"
-            codeLink="https://github.com/CantarinoG/top-streaming-app"
-            />
-            <IndividualProject
+            name="BemGestar"
+            description={text.projectsBemGestar}
+            image="./img/bemGestar.png"
+            demoLink="https://youtu.be/TrFLTXb4y0k"
+            codeLink="https://github.com/CantarinoG/plataforma-gestantes"
+        />
+         <IndividualProject
             text={text}
-            name="Ready CV"
-            description={text.projectsCV}
-            image="./img/CVCreator.png"
-            demoLink="https://cantarinog.github.io/top-cv-creator/"
-            codeLink="https://github.com/CantarinoG/top-cv-creator"
-            />
-            <IndividualProject
+            name="Expenses App"
+            description={text.projectsExpenses}
+            image="./img/expenses.png"
+            demoLink="https://youtube.com/shorts/bf4h3GP2QF4"
+            codeLink="https://github.com/CantarinoG/expenses-app"
+        />
+        <IndividualProject
             text={text}
-            name="Where Are The Heroes?"
-            description={text.projectsHeroes}
-            image="./img/whereAreTheHeroes.png"
-            demoLink="https://cantarinog.github.io/top-photo-tagging/"
-            codeLink="https://github.com/CantarinoG/top-photo-tagging"
-            />
-            <IndividualProject
+            name="ToDo App"
+            description={text.projectsTodo}
+            image="./img/todo.png"
+            demoLink="https://youtube.com/shorts/bgZE_RlVXX0"
+            codeLink="https://github.com/CantarinoG/todo"
+        />
+         <IndividualProject
             text={text}
-            name="Battleship"
-            description={text.projectsBattleShip}
-            image="./img/battleship.png"
-            demoLink="https://cantarinog.github.io/top-battleship/"
-            codeLink="https://github.com/CantarinoG/top-battleship"
-            />
-            <IndividualProject
+            name="Paint Brush"
+            description={text.projectsPaint}
+            image="./img/paint.png"
+            demoLink="https://youtu.be/YF4ExxG5YGM"
+            codeLink="https://github.com/CantarinoG/paint-brush"
+        />
+        <IndividualProject
             text={text}
-            name="Weather Forecast"
-            description={text.projectsWeather}
-            image="./img/weatherForecast.png"
-            demoLink="https://cantarinog.github.io/top-weather-app/"
-            codeLink="https://github.com/CantarinoG/top-weather-app"
-            />
-            <IndividualProject
+            name="Travelling Salesman Demo"
+            description={text.projectsTravellingSalesman}
+            image="./img/travelling.png"
+            demoLink="https://cantarinog.github.io/traveling-salesman-simulated-annealing/"
+            codeLink="https://github.com/CantarinoG/traveling-salesman-simulated-annealing"
+        />
+        <IndividualProject
             text={text}
             name="Knight's Travails"
             description={text.projectsKnight}
             image="./img/knightsTravails.png"
-            demoLink="https://cantarinog.github.io/top-knights-travails/"
-            codeLink="https://github.com/CantarinoG/top-knights-travails"
-            />
-            <IndividualProject
+            demoLink="https://cantarinog.github.io/knights-travails/"
+            codeLink="https://github.com/CantarinoG/knights-travails"
+        />
+        <IndividualProject
             text={text}
-            name="Etch-A-Sketch"
-            description={text.projectsArt}
-            image="./img/etchASketch.png"
-            demoLink="https://cantarinog.github.io/top-etch-a-sketch/"
-            codeLink="https://github.com/CantarinoG/top-etch-a-sketch"
-            />
+            name="Battleship"
+            description={text.projectsBattleShip}
+            image="./img/battleship.png"
+            demoLink="https://cantarinog.github.io/battleship/"
+            codeLink="https://github.com/CantarinoG/battleship"
+        />
+        <IndividualProject
+            text={text}
+            name="Ready CV"
+            description={text.projectsCV}
+            image="./img/CVCreator.png"
+            demoLink="https://cantarinog.github.io/cv-creator/"
+            codeLink="https://github.com/CantarinoG/cv-creator"
+        />
+        <IndividualProject
+            text={text}
+            name="Where Are The Heroes?"
+            description={text.projectsHeroes}
+            image="./img/whereAreTheHeroes.png"
+            demoLink="https://cantarinog.github.io/find-the-heroes/"
+            codeLink="https://github.com/CantarinoG/find-the-heroes"
+        />
         </div>
     </section>
 
