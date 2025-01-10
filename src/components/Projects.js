@@ -9,6 +9,14 @@ function Projects({text}) {
         <div className="individual-projects">
         <IndividualProject
             text={text}
+            name="Flashcard Pets"
+            description={text.projectsFlashcardPets}
+            image="./img/flashcardPets.jpeg"
+            demoLink="https://www.youtube.com/watch?v=09gkzyIUMSQ"
+            codeLink="https://github.com/CantarinoG/flashcard-pets"
+            />
+        <IndividualProject
+            text={text}
             name="Handy Input"
             description={text.projectsHandyInput}
             image="./img/handyInput.png"
