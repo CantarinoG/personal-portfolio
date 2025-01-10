@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.eae67031.css",
-    "main.js": "/personal-portfolio/static/js/main.f941d3e8.js",
+    "main.js": "/personal-portfolio/static/js/main.c9f08ba7.js",
     "static/media/pexels-christina-morillo-1181675.jpg": "/personal-portfolio/static/media/pexels-christina-morillo-1181675.3fc3d1b5d930db467d8b.jpg",
     "static/media/profile.jpeg": "/personal-portfolio/static/media/profile.842e0ff4f68b3f4cd5b4.jpeg",
     "index.html": "/personal-portfolio/index.html",
     "main.eae67031.css.map": "/personal-portfolio/static/css/main.eae67031.css.map",
-    "main.f941d3e8.js.map": "/personal-portfolio/static/js/main.f941d3e8.js.map"
+    "main.c9f08ba7.js.map": "/personal-portfolio/static/js/main.c9f08ba7.js.map"
   },
   "entrypoints": [
     "static/css/main.eae67031.css",
-    "static/js/main.f941d3e8.js"
+    "static/js/main.c9f08ba7.js"
   ]
 }
